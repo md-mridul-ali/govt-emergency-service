@@ -125,3 +125,99 @@
     color: #FFFFFF;
     margin-top: 11px;
 }
+/* emergency categories section */
+.emergency-categories-section {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 850px;
+}
+
+.emergency-service-section {
+    background-color: #FFFFFF;
+}
+
+.services {
+    width: 320px;
+    height: 250px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.services h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.services p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-number {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.categories {
+    height: 25px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.594);
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.call-btn {
+    color: #FFFFFF;
+}
+
+.copy-btn {
+    border: 2px solid rgba(128, 128, 128, 0.628);
+}
+
+/* call history style */
+#call-history-parent {
+    width: 350px;
+    height: 825px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.call-history-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.call-history-section-left-div {
+    font-weight: 600;
+}
+
+.call-history-section-right-div .clear-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #00A63E;
+    border-radius: 40px;
+}
